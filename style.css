@@ -80,9 +80,15 @@ flex-direction: row;
     display: flex;
 flex-direction: row;
 }
+
 .box{
     height: 333px;
     width: 333px;
     display: flex;
     flex-wrap: wrap;
+}
+.start:hover {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: rgb(213, 0, 188);
 }
